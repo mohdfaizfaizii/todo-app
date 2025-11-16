@@ -30,36 +30,32 @@ The app includes user authentication with JWT, password reset, and complete CRUD
 
 
 
-## 📁 Project Structure
+## Getting Started
 
+### Clone my Repository
 
-todo-app/
-├── backend/
-│   ├── src/
-│   │   ├── controllers/
-│   │   ├── middleware/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   ├── utils/
-│   │   └── app.ts
-│   ├── package.json
-│   └── tsconfig.json
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── hooks/
-│   │   ├── pages/
-│   │   ├── schemas/
-│   │   ├── store/
-│   │   ├── utils/
-│   │   ├── App.tsx
-│   │   └── main.tsx
-│   ├── package.json
-│   └── vite.config.ts
-│
-└── README.md
+```bash
+git clone https://github.com/YOUR_USERNAME/todo-app.git
+cd todo-app
+```
 
+Replace `YOUR_USERNAME` with your GitHub username.
+
+### Quick Start
+
+1. **Clone my repository** (see above)
+2. **Set up environment variables** (see Backend Setup and Frontend Setup sections)
+3. **Install dependencies** for both backend and frontend
+4. **Run the development servers**
+
+Follow the detailed setup instructions below.
+
+## Setup Instructions
+
+### Prerequisites
+- Node.js (v18 or higher)
+- MongoDB Atlas account (free tier works)
+- npm or yarn
 
 
 ### Backend Setup
